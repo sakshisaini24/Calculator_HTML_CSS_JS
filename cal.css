@@ -1,0 +1,83 @@
+h1{
+    padding: 23px;  
+    background-color: skyblue;  
+    color: white;
+}
+.container{
+    padding: 23px;
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 400px;
+}
+.keys{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 23px;
+}
+.button{
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: #333;
+    padding: 10px;
+}
+.button:hover{
+    background-color: aquamarine;
+    transition: 0.8s;
+}
+.operator{
+    height: 60px;
+    background-color: rgb(255, 128, 128);
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: #333;
+    padding: 10px;
+}
+.operator:hover{
+    background-color: red;
+    transition: 0.8s;
+}
+.equal-sign{
+    height: 60px;
+    background-color: rgb(59, 105, 204);
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+.equal-sign:hover{
+    background-color: rgb(4, 7, 174);
+    transition: 0.8s;
+}
+.clear{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(247, 186, 6);
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+.clear:hover{
+    background-color: rgb(233, 190, 62);
+    transition: 0.8s;
+}
+.screen{
+    height: 40px;
+    width: 280px;
+    background-color: rgb(208, 255, 202);
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
+    color: black;
+    padding: 10px;
+}
+
